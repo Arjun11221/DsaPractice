@@ -8,7 +8,7 @@ void sort02(vector<int>& v){
     int j = n-1;
     while(i<j){
         if(v[i]<0) i++;
-        else if(v[j]>0) j--;
+        else if(v[j]>0) j--;    
         else if(v[i]>0&&v[j]<0){
             swap(v[i],v[j]);
             i++;
