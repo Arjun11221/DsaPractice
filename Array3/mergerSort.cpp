@@ -22,9 +22,9 @@ int main(){
 
     vector<int> v3(m+n);
     int k = v3.size();
-    cout<<k;
-
-
-
     
+    for(int i = 0; i<k; i++){
+        cout<<v3[i]<<" ";
+    }
+
 }
